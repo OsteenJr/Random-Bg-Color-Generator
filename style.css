@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: hsl(0, 0%, 90%);
+}
+.container {
+    margin: 10rem auto 0;
+    /* background-color: white;
+    box-shadow: 5ps 5px 5px hsla(0, 0%, 0%, 0.1);
+    height: 300px;
+    width: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#changeBtn {
+    background-color: hsl(0, 82%, 4%);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#changeBtn:hover {
+     background-color: hsl(0, 92%, 10%);
+}
